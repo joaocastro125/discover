@@ -1,0 +1,1 @@
+// o proto type mostra as funções nativas do browser

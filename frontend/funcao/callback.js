@@ -1,17 +1,15 @@
 // callback utlizamos em outra funçao
 
 function sayMyName(name){
-  console.log("ola ,joao"+name)
+  console.log("excultando uma callback antes")
+  name()
+  console.log("execultando depois")
   
 }
 
-function sayMyName(){
-    
-  console.log("funcao execultada")
-    
-}
+ sayMyName(()=>{
+   console.log("estou em uma callback")
+ })
 
-sayMyName(sayMyName)
-name
 
 
